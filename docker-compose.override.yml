@@ -1,0 +1,9 @@
+web:
+  volumes:
+    - '.:/overtime'
+  environment:
+    RAILS_ENV: "${RAILS_ENV}"
+
+shell:
+  environment:
+    RAILS_ENV: "${RAILS_ENV}"
